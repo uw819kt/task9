@@ -1,0 +1,54 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    border: 0;
+    width: 100%
+}
+
+.header_post {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    border: 0;
+    width: 100%
+}
+
+
+.post_show {
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dedede;
+}
+
+strong {
+    padding-bottom: 20px;
+}
+
+.edit_action {
+    align-items: center;
+}
+
+.post_maker {
+    color: aquamarine;
+}

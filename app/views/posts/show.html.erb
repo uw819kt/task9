@@ -1,0 +1,10 @@
+<h1 class="header_post">Dlete Post</h1>
+<p id="notice"><%= notice %></p>
+
+<p class="post_show">
+  <strong>Content</strong>
+  <%= @post.content %>
+</p>
+
+<%= link_to button_to "削除", post_path(@post), method: :delete  %> |
+<%= link_to '戻る', posts_path %>
